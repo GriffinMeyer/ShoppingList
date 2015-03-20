@@ -3,9 +3,9 @@
 
 class list{
 private:
-	int a = 1;
+	int numPeople = 0;
 public:
-	void returnNum();
+	void returnNumPeople();
 };
 
 #endif

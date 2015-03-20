@@ -3,6 +3,6 @@
 #include "list.h"
 using namespace std;
 
-void list::returnNum(){
-	cout << a;
+void list::returnNumPeople(){
+	cout << numPeople;
 }

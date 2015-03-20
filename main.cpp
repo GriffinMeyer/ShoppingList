@@ -3,19 +3,25 @@ using namespace std;
 #include <iostream>
 #include <string>
 #include "list.h"
+#include <map>
 
-string food;
+string temp;
+string userInput;
 int main(int argc, char *argv[]){
 	cout << "Welcome to the Shopping List Calculator, Bitch." << endl;
 	cout << "if you would like to quit, type 'Quit'";
-	list newObj;
+	list newList;
 	for (;;){
-		cin >> food;
-		cout << food;
-		newObj.returnNum();
-	//	outPut();
-		if (food == "Quit"){
+		cin >> userInput;
+		//newList.returnNumPeople();
+		if (userInput == "Quit"){
 			return(0);
+		}
+		if (userInput == "new"){
+			cin >> temp;
+			cout << temp;
+			map <char, int> newList;
+			
 		}
 	}
 	
